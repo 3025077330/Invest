@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载中..." />
+
+    <ProgressBar
+        android:layout_marginTop="30dp"
+        android:id="@+id/download_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/plan_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/download_progress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:text="0%"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_nowcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/download_progress"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@id/tv_filesize"
+        android:text="0"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/tv_filesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/download_progress"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:text="/0"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

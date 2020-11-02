@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#03A9F4"
+            android:gravity="center"
+            android:text="用户反馈"
+            android:textColor="#504F4F"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="发送："
+            android:textColor="#00BCD4"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/tv_send"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="技术部"
+                android:textColor="#E22C2C"
+                android:textSize="20sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="理财部"
+                android:textColor="#E22C2C"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="咨询部"
+                android:textColor="#E22C2C"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_send"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="信息："
+            android:textColor="#00BCD4"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_send"
+            android:layout_toRightOf="@id/tv_msg"
+            android:background="@drawable/shape"
+            android:hint="反馈您遇到的任何问题给客服人员"
+            android:textSize="23sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#BEBCBC">
+
+        <Button
+            android:id="@+id/feek_sure"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="#F3EFEF"
+            android:text="确定"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/feek_off"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="210dp"
+            android:background="#F3EFEF"
+            android:text="取消"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

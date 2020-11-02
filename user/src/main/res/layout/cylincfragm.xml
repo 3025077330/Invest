@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bw.framwork.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:left_show="true"
+        app:left_src="@mipmap/back"
+        app:right_show="false"
+        app:title_color="#03A9F4"
+        app:title_show="true"
+        app:title_text="柱状分布图" />
+
+    <com.bw.user.view.ColumnarView
+        android:id="@+id/columnar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

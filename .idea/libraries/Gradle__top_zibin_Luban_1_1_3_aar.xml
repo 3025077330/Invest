@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: top.zibin:Luban:1.1.3@aar">
+    <CLASSES>
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/2b7eeff0893779e875f9935fba7f524b/jetified-Luban-1.1.3/AndroidManifest.xml" />
+      <root url="jar://F:/Android_Gradle/caches/transforms-2/files-2.1/2b7eeff0893779e875f9935fba7f524b/jetified-Luban-1.1.3/jars/classes.jar!/" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/2b7eeff0893779e875f9935fba7f524b/jetified-Luban-1.1.3/res" />
+      <root url="jar://F:/Android_Gradle/caches/transforms-2/files-2.1/2dfa2bdd76372ce33ce667b41c475061/jetified-Luban-1.1.3/jars/classes.jar!/" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/2dfa2bdd76372ce33ce667b41c475061/jetified-Luban-1.1.3/res" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/2dfa2bdd76372ce33ce667b41c475061/jetified-Luban-1.1.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/Android_Gradle/caches/modules-2/files-2.1/top.zibin/Luban/1.1.3/2ef0eef966f15b31e5066b5e44124ca665310b54/Luban-1.1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/Android_Gradle/caches/modules-2/files-2.1/top.zibin/Luban/1.1.3/b73d8ce04d26bfbe66b6b8e62f727aad4dcdbc59/Luban-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

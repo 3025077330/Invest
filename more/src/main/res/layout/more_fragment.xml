@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical">
+
+
+    <com.bw.framwork.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#000000"
+        app:left_show="false"
+        app:right_show="false"
+        app:right_text="设置"
+        app:right_text_color="#03A9F4"
+        app:title_color="#03A9F4"
+        app:title_show="true"
+        app:title_text="更多" />
+
+    <TextView
+        android:id="@+id/user_set"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/yhzcbg"
+        android:gravity="center_vertical"
+        android:text="   用户注册"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/ssmmbg"
+            android:gravity="center_vertical"
+            android:text="   手势密码"
+            android:textColor="#03A9F4"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switch_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/init_pass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/czssmmbg"
+        android:gravity="center_vertical"
+        android:text="  重置手势密码"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_phonecall"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/lxkf"
+            android:gravity="center_vertical"
+            android:text="   联系客服"
+            android:textColor="#03A9F4"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/phone_call"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="010-56253825"
+            android:textColor="#F80000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_feek"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/yhfk"
+        android:gravity="center_vertical"
+        android:text="   用户反馈"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/shar_app"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/fxghy"
+        android:gravity="center_vertical"
+        android:text="   分享给好友"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_upapp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/gxapp"
+        android:gravity="center_vertical"
+        android:text="   产品信息"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/msg_app"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/gyggcl"
+        android:gravity="center_vertical"
+        android:text="   关于硅谷理财"
+        android:textColor="#03A9F4"
+        android:textSize="25sp" />
+
+</LinearLayout>

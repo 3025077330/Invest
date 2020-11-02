@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bw.framwork.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:left_show="true"
+        app:left_src="@mipmap/back"
+        app:right_show="false"
+        app:title_color="#03A9F4"
+        app:title_text="提现" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+       android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="    支付宝:3025077330@qq.com" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="提现金额"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="|"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/f3_pop_ed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="请输入100元以上金额"
+            android:inputType="number"
+            android:paddingLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:paddingLeft="20dp"
+            android:text="您的账户目前可用余额："
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/f3_pop_yu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" 0 "
+            android:textColor="#F44336"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" 元 "
+            android:textColor="#000"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/f3_pop_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#B9B7B7"
+        android:gravity="center"
+        android:text="提现"
+        android:textColor="#fff"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="温馨提示:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="1、若您未在本平台理财，账户余额在3个月以后才能进行提现申请。"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="2、如您已绑定过银行卡的快捷签约，绑定后，无论在电脑PC端或手机端体现都只能使用该银行卡。除非原卡丢失、损坏或停用，否侧-经绑定银行卡，将不得更换。此种情况下，请提供由银行提供的书面证明材。"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

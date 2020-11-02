@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bw.framwork.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#000000"
+        app:left_show="false"
+        app:right_src="@drawable/setbg"
+        app:right_text="设置"
+        app:right_text_color="#03A9F4"
+        app:title_color="#03A9F4"
+        app:title_show="true"
+        app:title_text="我的资产" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#43B4E7">
+
+        <ImageView
+            android:id="@+id/user_head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/my_user_default" />
+
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Hi.玛卡巴卡"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  学习提示:"
+        android:textColor="#E23E3E" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="   充值我们将以集成支付宝sdk支付金额演示充值功能"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="   提现业务:在p2p金融平台中，提现都不是实时到账的，而是审核提现，系统将会告知24小时内进行转账，如果未收到，请联系客服..."
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_chongzhi"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+               android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape3"
+            android:gravity="center"
+            android:text="充值"
+            android:textColor="#F77A7A"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_marginRight="25dp"
+            android:id="@+id/tv_tixian"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:text="提现"
+            android:textColor="#03A9F4"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvtzglone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/tzglbg"
+        android:drawableRight="@drawable/intobg"
+        android:gravity="center_vertical"
+        android:text="投资管理" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D5D2D2" />
+
+
+    <TextView
+        android:id="@+id/tvtzgl_zg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/tzzg"
+        android:drawableRight="@drawable/intobg"
+        android:gravity="center_vertical|start"
+        android:text="投资管理(直观)" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D5D2D2" />
+
+    <TextView
+        android:id="@+id/tvgzglthree"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/zcglbg"
+        android:drawableRight="@drawable/intobg"
+        android:gravity="center_vertical"
+        android:text="投资管理" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D5D2D2" />
+</LinearLayout>
+
+

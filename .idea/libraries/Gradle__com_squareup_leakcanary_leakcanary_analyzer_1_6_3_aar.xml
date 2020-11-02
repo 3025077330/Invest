@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.leakcanary:leakcanary-analyzer:1.6.3@aar">
+    <CLASSES>
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/f97e096b9c2d3ad68b857e8f470036fd/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml" />
+      <root url="jar://F:/Android_Gradle/caches/transforms-2/files-2.1/f97e096b9c2d3ad68b857e8f470036fd/jetified-leakcanary-analyzer-1.6.3/jars/classes.jar!/" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/f97e096b9c2d3ad68b857e8f470036fd/jetified-leakcanary-analyzer-1.6.3/res" />
+      <root url="jar://F:/Android_Gradle/caches/transforms-2/files-2.1/e62432962fdbfcb9991ea3c7737d8067/jetified-leakcanary-analyzer-1.6.3/jars/classes.jar!/" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/e62432962fdbfcb9991ea3c7737d8067/jetified-leakcanary-analyzer-1.6.3/AndroidManifest.xml" />
+      <root url="file://F:/Android_Gradle/caches/transforms-2/files-2.1/e62432962fdbfcb9991ea3c7737d8067/jetified-leakcanary-analyzer-1.6.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/Android_Gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.6.3/35688ba74ab61eb330c952b5e1a6e811eb3392e0/leakcanary-analyzer-1.6.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/Android_Gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.6.3/e48e8ce817dbb162ee46fcc03fb4318d15efd7d7/leakcanary-analyzer-1.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

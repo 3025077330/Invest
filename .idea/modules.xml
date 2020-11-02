@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/P2PInvest1801.iml" filepath="$PROJECT_DIR$/P2PInvest1801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/P2PInvest1801.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/P2PInvest1801.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/P2PInvest1801.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/P2PInvest1801.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framwork/P2PInvest1801.framwork.iml" filepath="$PROJECT_DIR$/.idea/modules/framwork/P2PInvest1801.framwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/invest/P2PInvest1801.invest.iml" filepath="$PROJECT_DIR$/.idea/modules/invest/P2PInvest1801.invest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/more/P2PInvest1801.more.iml" filepath="$PROJECT_DIR$/.idea/modules/more/P2PInvest1801.more.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net/P2PInvest1801.net.iml" filepath="$PROJECT_DIR$/.idea/modules/net/P2PInvest1801.net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/P2PInvest1801.user.iml" filepath="$PROJECT_DIR$/.idea/modules/user/P2PInvest1801.user.iml" />
+    </modules>
+  </component>
+</project>

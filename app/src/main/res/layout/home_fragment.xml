@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <com.bw.framwork.view.ToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:left_show="false"
+        app:right_show="false"
+        app:title_color="#03A9F4"
+        app:title_show="true"
+        app:title_text="首页" />
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="435dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="硅谷彩虹新手计划"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/title"
+            android:src="@mipmap/hot" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/title"
+            android:text="推荐"
+            android:textColor="#DF5656" />
+
+
+        <TextView
+            android:id="@+id/one_bu"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="本息保障"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tow_bu"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/one_bu"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="每日计息" />
+
+        <TextView
+            android:id="@+id/three_bu"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tow_bu"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="高额收益" />
+
+        <com.p2p.bawei.p2pinvest1801.view.ProgressView
+            android:id="@+id/myprogress"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/one_bu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myprogress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="预期年利率：8.00%"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/add_bu"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_count"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_bu"
+            android:gravity="center"
+            android:text="立即加入"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/anquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_bu"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="23.5dp"
+            android:src="@mipmap/anquan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_bu"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/anquan"
+            android:text="风险保障金由硅谷银行监管"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

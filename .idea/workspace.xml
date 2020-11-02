@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="WYF" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68540c03-1bda-4fda-b5a9-0aeb09127f9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_haha_haha_2_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_6_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_6_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_support_fragment_1_6_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_6_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_jessyan_autosize_1_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_trove4j_trove4j_20160824_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/util/UIUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/view/AnimationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/view/RandomLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__top_zibin_Luban_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__top_zibin_Luban_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/WelcomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/WelcomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/app/FinanCilalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/app/FinanCilalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/capture/CrashHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/p2p/bawei/p2pinvest1801/capture/CrashHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bw/common/FinanCilalConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bw/common/FinanCilalConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framwork/framwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/framwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framwork/src/main/java/com/bw/framwork/base/BaseRVAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/com/bw/framwork/base/BaseRVAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/invest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/invest/invest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/allinvest/AllInvestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/allinvest/AllInvestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/allinvest/presenter/AllInvestPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/allinvest/presenter/AllInvestPresenterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/fragment/InvestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/fragment/InvestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/fragment/RecomFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/fragment/RecomFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/view/StellarMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/invest/src/main/java/com/bw/invest/view/StellarMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more/more.iml" beforeDir="false" afterPath="$PROJECT_DIR$/more/more.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more/src/main/java/com/bw/more/fragment/MoreFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/more/src/main/java/com/bw/more/fragment/MoreFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/net.iml" beforeDir="false" afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/bw/net/service/DownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/bw/net/service/DownloadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/src/main/java/com/bw/net/service/FinancialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/main/java/com/bw/net/service/FinancialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/bw/user/login/presenter/LoginPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/bw/user/login/presenter/LoginPresenterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/bw/user/register/presenter/RegisterPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/bw/user/register/presenter/RegisterPresenterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/bw/user/service/InvestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/bw/user/service/InvestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[127.0.0.1:62001]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="P2PInvest1801" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gcDKVa6lNv5zPwUuUtzpAEmmpl" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="127.0.0.1:62025" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-29T07:29:51.145Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="F:/Android_SDK" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AndroidSix\P2PInvest1801\app\src\main\res\mipmap-hdpi" />
+      <recent name="E:\AndroidSix\P2PInvest1801\more\src\main\res\drawable" />
+      <recent name="E:\AndroidSix\P2PInvest1801\user\src\main\res\layout" />
+      <recent name="E:\AndroidSix\P2PInvest1801\user\src\main\res" />
+      <recent name="E:\AndroidSix\P2PInvest1801\user\src\main\res\drawable" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bw.invest" />
+      <recent name="com.bw.net" />
+      <recent name="com.bw.user" />
+      <recent name="com.bw.common" />
+      <recent name="com.p2p.bawei.p2pinvest1801" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.p2p.bawei.p2pinvest1801" />
+      <recent name="com.bw.more" />
+      <recent name="com.bw.user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bw.net" />
+      <recent name="com.bw.invest.view" />
+      <recent name="com.bw.framwork.glide" />
+      <recent name="com.bw.net.service" />
+      <recent name="com.p2p.bawei.p2pinvest1801.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AndroidSix\P2PInvest1801\invest\src\main\java\com\bw\invest" />
+      <recent name="E:\AndroidSix\P2PInvest1801\invest\src\main\java\com\bw\invest\util" />
+      <recent name="E:\AndroidSix\P2PInvest1801\invest\src\main\java\com\bw\invest\view" />
+      <recent name="E:\AndroidSix\P2PInvest1801\net\src\main\java\com\bw\net" />
+      <recent name="E:\AndroidSix\P2PInvest1801\framwork\src\main\res\mipmap-hdpi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="P2PInvest1801.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68540c03-1bda-4fda-b5a9-0aeb09127f9d" name="Default Changelist" comment="" />
+      <created>1597216113233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597216113233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="350" y="88" key="#Gradle" timestamp="1598616510987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="350" y="88" key="#Gradle/0.0.1536.824@0.0.1536.824" timestamp="1598616510987" />
+    <state x="267" y="127" key="#PSD" timestamp="1598942451871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="267" y="127" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1598942451871" />
+    <state x="560" y="74" key="#app" timestamp="1600583695963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="74" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1600583695963" />
+    <state x="534" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1601004471514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="534" y="179" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601004471514" />
+    <state x="414" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598407262885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1598407262885" />
+    <state x="423" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600257076470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="423" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1600257076470" />
+    <state x="579" y="327" width="439" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598960930676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="327" width="439" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1598960930676" />
+    <state x="576" y="315" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600257077681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="315" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1600257077681" />
+    <state x="674" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600256759662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="674" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600256759662" />
+    <state x="625" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598413471197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="625" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1598413471197" />
+    <state x="570" y="167" key="FileChooserDialogImpl" timestamp="1598945375826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598945375826" />
+    <state x="576" y="336" key="Github.CreateGistDialog" timestamp="1598664298659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="336" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1598664298659" />
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom" timestamp="1603164489790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603164489790" />
+    <state width="1493" height="60" key="GridCell.Tab.0.center" timestamp="1603164489790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603164489790" />
+    <state width="1493" height="60" key="GridCell.Tab.0.left" timestamp="1603164489790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603164489790" />
+    <state width="1493" height="60" key="GridCell.Tab.0.right" timestamp="1603164489790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="60" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603164489790" />
+    <state width="1493" height="372" key="GridCell.Tab.1.bottom" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.1.center" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.1.left" timestamp="1598429809174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598429809174" />
+    <state width="1493" height="372" key="GridCell.Tab.1.right" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.2.bottom" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.2.center" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.2.left" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state width="1493" height="372" key="GridCell.Tab.2.right" timestamp="1598429809175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1598429809175" />
+    <state x="277" y="105" width="996" height="710" key="SettingsEditor" timestamp="1598662403453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="105" width="996" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598662403453" />
+    <state x="198" y="156" width="1200" height="584" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1598405803847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="198" y="156" width="1200" height="584" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1598405803847" />
+    <state x="381" y="219" key="com.intellij.ide.util.TipDialog" timestamp="1600343977309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="219" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600343977309" />
+    <state x="541" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598941376225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="541" y="104" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598941376225" />
+    <state x="499" y="165" key="extract.method.dialog" timestamp="1598426433446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="165" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1598426433446" />
+    <state x="553" y="70" key="psd.add.module.dependency.panel.dimension" timestamp="1598942446181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="70" key="psd.add.module.dependency.panel.dimension/0.0.1536.824@0.0.1536.824" timestamp="1598942446181" />
+    <state x="366" y="196" key="run.anything.popup" timestamp="1598670583728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="366" y="196" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598670583728" />
+    <state x="382" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1598951954053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="382" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598951954053" />
+  </component>
+</project>

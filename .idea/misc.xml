@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <pattern value="com.bw.framwork.base.BaseActivity" method="launchActivity" />
+    <pattern value="com.bw.framwork.base.BaseActivity" method="showMsg" />
+    <pattern value="com.bw.framwork.base.BaseActivity" />
+    <pattern value="com.bw.framwork.base.BaseActivity" method="printLog" />
+    <pattern value="com.bw.framwork.base.BaseFragment" method="showMsg" />
+    <pattern value="com.bw.framwork.base.BaseFragment" method="printLog" />
+    <pattern value="com.bw.framwork.base.IView" method="hideLoading" />
+    <pattern value="com.bw.framwork.base.IView" method="showError" />
+    <pattern value="com.bw.framwork.base.IView" method="showLoading" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.p2p.bawei.p2pinvest1801">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="REQUEST_CODE_CONTACT" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".app.FinanCilalApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/appbg"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:requiredForAllUsers="true"
+        android:roundIcon="@mipmap/appbg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <service android:name="com.bw.user.service.InvestService" />
+        <service android:name="com.bw.net.service.DownloadService"></service>
+
+
+        <activity
+            android:name=".BannerMsgActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/TranslucentTheme" />
+        <!--    android:launchMode="singleTask" 也没有必要设置 -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/WelcomeTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/TranslucentTheme" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.p2p.bawei.p2pinvest1801"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+
+        </provider>
+                <meta-data
+                    android:name="design_width_in_dp"
+                    android:value="480" />
+                <meta-data
+                    android:name="design_height_in_dp"
+                    android:value="800" />
+    </application>
+
+
+</manifest>
